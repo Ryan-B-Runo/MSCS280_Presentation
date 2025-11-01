@@ -2,17 +2,16 @@
 %! Date = 10/31/2025
 
 % Preamble
-\documentclass[11pt]{amsart}
+\documentclass{amsart}
 
 % Packages
 \usepackage{amsmath}
-\usepackage{lipsum}
+\usepackage{amsrefs}
+
+\usepackage{lipsum} % delete when finished
 
 % Document
 \begin{document}
-
-%    \bibliography{bibliography}
-%    \bibliographystyle{plain}
 
     \title{Our Title}
     \author{Ryan Bruno}
@@ -27,6 +26,30 @@
 
     \maketitle
 
-    \lipsum[1-5]
+    % \tableofcontents % uncomment if needed
+
+    \lipsum[1-5]~\cite{ourBook} % '~' is a non-breaking space
+
+
+
+    \newpage
+
+    % bibliography stuff goes here
+    \begin{bibdiv} % "produces the chapter or section heading for the bibliography" (the thing that says 'REFERENCES')
+        \begin{biblist} % contains the reference list
+
+            % may add more data to this
+            \bib{ourBook}{book}{
+                title={Graphs and Digraphs},
+                author={Gary Chartrand},
+                author={Linda Lesniak},
+                author={Ping Zhang},
+                date={2016},
+                publisher={CRC Press},
+                address={Boca Raton}
+            }
+
+        \end{biblist}
+    \end{bibdiv}
 
 \end{document}
