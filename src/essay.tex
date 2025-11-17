@@ -13,6 +13,8 @@
 \usepackage{tikz} % delete when finished
 \usepackage{float}
 
+\usepackage{hyperref}
+
 \usetikzlibrary{backgrounds}
 
 \theoremstyle{definition}
@@ -71,7 +73,7 @@
                 \filldraw [purple] (1, 2) circle (10pt);
                 \filldraw [green] (2, 0) circle (10pt);
                 \filldraw [red] (4, 4) circle (10pt);
-            \end{tikzpicture}\caption{The planar graph on the left is planar since it is isomorphic to the plane graph on the right.}\label{fig:isomorphicPlanar}
+            \end{tikzpicture}\caption{The graph on the left is planar since it is isomorphic to the plane graph on the right.}\label{fig:isomorphicPlanar}
         \end{figure}
     \end{center}
     From here on, when referring to planar graphs, we will be considering the plane graph that the graph is isomorphic to.
@@ -126,6 +128,100 @@
 
     ??
 
+    The Euler Identity is a powerful tool in characterizing planar graphs.
+    However, it is difficult to determine the amount of regions in an arbitrary graph.
+    Luckily, the Euler Identity leads to a result that no longer requires a region count.
+    Since each edge is on the boundary of at most two regions in a graph $G$, we can use the Euler Identity to get a result in terms of the order and size of $G$.
+
+    If $G$ is a planar graph of order $n\geq 3$ and size $m$, then
+    \[m\leq 3n-6.\]
+    Equivalently, if $G$ is of order $n\geq 5$ and size $m$ such that
+    \[m>3n-6,\]
+    then $G$ is nonplanar.
+
+    These results lead to two important nonplanar graphs that leas to a universal planarity criterion.
+    Namely, both $K_5$ and $K_{3,3}$ are nonplanar.
+    $K_5$ is of order $5$ and size $20$, and since $20>15-6$, it is therefore nonplanar by our newest result.
+    $K_{3,3}$ is of order $6$ and size $9$, so we can't say anything using the size formulas.
+    Instead, the Euler identity requires that $6-9+r=2$.
+    Therefore, $K_{3,3}$ must have $5$ regions to be nonplanar.
+    However, since bipartite graphs have no odd cycles, each region of the graph requires at least four edges on the boundary (boundaries are cycles).
+    Since each edge in $K_{3,3}$ is on a cycle, it is on the boundary of two regions -- so each edge gets counted twice when constructing these regions.
+    Therefore, the minimum size of $K_{3,3}$ must be $\frac{5\times 4}{2}=10$.
+    However, since $K_{3,3}$ is of size $9$, this is impossible -- sp $K_{3,3}$ must be nonplanar.
+
+    \begin{figure}[H]
+        \centering
+
+        \begin{tikzpicture}[
+            vertex/.style = {
+                circle,
+                draw,
+                thick,
+                fill=black,
+                minimum size=1mm,
+                font=\sffamily
+            }
+        ]
+            \def\numVertices{5}
+            \def\radius{1.25}
+            \foreach \i in {1,...,\numVertices} {
+                \node[vertex] (v\i) at ({90 - (\i - 1) * (360/\numVertices)}:\radius) {};
+            }
+            \draw[thick, color=black] (v1) -- (v2);
+            \draw[thick, color=black] (v1) -- (v3);
+            \draw[thick, color=black] (v1) -- (v4);
+            \draw[thick, color=black] (v1) -- (v5);
+
+            \draw[thick, color=black] (v2) -- (v3);
+            \draw[thick, color=black] (v2) -- (v4);
+            \draw[thick, color=black] (v2) -- (v5);
+
+            \draw[thick, color=black] (v3) -- (v4);
+            \draw[thick, color=black] (v3) -- (v5);
+
+            \draw[thick, color=black] (v4) -- (v5);
+
+        \end{tikzpicture}\hspace{1in}
+        \begin{tikzpicture}
+            \draw[black, thick] (0,0) -- (0,2);
+            \draw[black, thick] (0,0) -- (2,2);
+            \draw[black, thick] (0,0) -- (4,2);
+
+            \draw[black, thick] (2,0) -- (0,2);
+            \draw[black, thick] (2,0) -- (2,2);
+            \draw[black, thick] (2,0) -- (4,2);
+
+            \draw[black, thick] (4,0) -- (0,2);
+            \draw[black, thick] (4,0) -- (2,2);
+            \draw[black, thick] (4,0) -- (4,2);
+
+            \filldraw [black] (0, 0) circle (6pt);
+            \filldraw [black] (0, 2) circle (6pt);
+            \filldraw [black] (2, 0) circle (6pt);
+            \filldraw [black] (2, 2) circle (6pt);
+            \filldraw [black] (4, 0) circle (6pt);
+            \filldraw [black] (4, 2) circle (6pt);
+        \end{tikzpicture}
+
+        \caption{$K_5$ (left) and $K_{3,3}$ (right), two nonplanar graphs.}
+        \label{fig:k_5k_33}
+    \end{figure}
+
+    Put simply, the idea behind the universal criterion for planarity is the following: can we show that a given graph has the same kind of geometry as $k_5$ or $K_{3,3}$?
+    Furthermore, we only have to show that a part of a graph has this geometry -- as there only needs to be one instance of line crossing to have a nonplanar graph.
+    To do this, we use the power of edge contractions.
+
+    \section{?}
+    f
+
+    \section{?}
+    f
+
+    \section{title}
+    
+
+
     \newpage
 
     % bibliography stuff goes here
@@ -141,6 +237,15 @@
                 date={2016},
                 publisher={CRC Press},
                 address={Boca Raton}
+            }
+
+            \bib{grassl}{webpage}{
+                title={More Discrete Mathematics via Graph Theory},
+                author={Richard Grassl},
+                author={Oscar Levin},
+                date={2018},
+                url={https://discrete.openmathbooks.org/more/mdm/mdm.html}
+                accessdate={November 17, 2025}
             }
 
         \end{biblist}
