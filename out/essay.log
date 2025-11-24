@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  21 NOV 2025 09:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  23 NOV 2025 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -658,24 +658,30 @@ Package hyperref Info: Link coloring OFF on input line 27.
 \tf@toc=\write5
 \openout5 = `essay.toc'.
 
- [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] 
-[5]
-(C:/dev/LaTeX/MSCS280_Presentation/out/essay.aux)
+ [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [2]
+[3] [4] [5] (C:/dev/LaTeX/MSCS280_Presentation/out/essay.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `essay.out' has not changed.
 (rerunfilecheck)             Checksum: 477A93A25961DCD34F216D08AE97BB87;696.
  ) 
 Here is how much of TeX's memory you used:
- 21404 strings out of 468662
- 390268 string characters out of 5444563
- 782662 words of memory out of 5000000
- 49612 multiletter control sequences out of 15000+600000
+ 21401 strings out of 468662
+ 390177 string characters out of 5444563
+ 787777 words of memory out of 5000000
+ 49609 multiletter control sequences out of 15000+600000
  634601 words of font info for 67 fonts, out of 8000000 for 9000
  591 hyphenation exceptions out of 8191
- 102i,9n,107p,594b,753s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,107p,594b,753s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/202
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-d
@@ -686,13 +692,12 @@ ic/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
 pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/te
 xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/202
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2025/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2025/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on C:/dev/LaTeX/MSCS280_Presentation/out/essay.pdf (5 pages, 168
-321 bytes).
+st/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on C:/dev/LaTeX/MSCS280_Presentation/out/essay.pdf (5 pages, 163
+195 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 140 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  23 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

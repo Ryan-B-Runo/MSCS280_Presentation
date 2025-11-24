@@ -83,7 +83,6 @@
 
     In order to solve this, we must discuss what properties define a planar graph.
     One important theorem is the Euler Identity.
-
     \begin{theorem}[The Euler Identity~\cite{ourBook}]
         For every connected plane graph of order $n$, size $m$ and having $r$ regions,
         \[n-m+r=2.\]
@@ -118,17 +117,6 @@
         \label{fig:regions}
     \end{figure}
 
-    With this in mind, let us prove Euler's Identity.
-    \begin{proof} Proceed by induction.
-        \begin{enumerate}
-            \item \emph{Base Case:} Consider the graph $K_1$, of order $1$, size $0$ and containing one region.
-                Since there are no possible edges that could cross, the induction holds.
-            \item \emph{Inductive Hypothesis:} If we assume that the hypothesis holds for a graph of order $n$, size $m$ and $r$ regions, then we will show it holds for a graph of order $n$, size $m=1$ and
-        \end{enumerate}
-    \end{proof}
-
-    ??
-
     The Euler Identity is a powerful tool in characterizing planar graphs.
     However, it is difficult to determine the amount of regions in an arbitrary graph.
     Luckily, the Euler Identity leads to a result that no longer requires a region count.
@@ -150,10 +138,8 @@
     Since each edge in $K_{3,3}$ is on a cycle, it is on the boundary of two regions -- so each edge gets counted twice when constructing these regions.
     Therefore, the minimum size of $K_{3,3}$ must be $\frac{5\times 4}{2}=10$.
     However, since $K_{3,3}$ is of size $9$, this is impossible -- sp $K_{3,3}$ must be nonplanar.
-
     \begin{figure}[H]
         \centering
-
         \begin{tikzpicture}[
             vertex/.style = {
                 circle,
@@ -211,7 +197,79 @@
 
     Put simply, the idea behind the universal criterion for planarity is the following: can we show that a given graph has the same kind of geometry as $k_5$ or $K_{3,3}$?
     Furthermore, we only have to show that a part of a graph has this geometry -- as there only needs to be one instance of line crossing to have a nonplanar graph.
+
     To do this, we use the power of edge contractions.
+    Given adjacent vertices $u$ and $v$ of a graph $G$, we define edge contraction as the process of ``merging'' the two vertices into a new vertex $w$, which is adjacent to all of the neighbors of $u$ and $v$.
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=0.75]
+            \draw[black, thick] (0,2) -- (2,4);
+            \draw[black, thick] (0,2) -- (4,0);
+            \draw[black, thick] (0,2) -- (1,1);
+
+            \draw[black, thick] (1,1) -- (3,2);
+
+            \draw[black, thick] (4,0) -- (3,2);
+            \draw[black, thick] (4,0) -- (5,4);
+
+            \draw[black, thick] (3,2) -- (2,4);
+            \draw[black, thick] (3,2) -- (5,4);
+
+            \draw[black, thick] (2,4) -- (5,4);
+
+            \filldraw [black] (0, 2) circle (6pt);
+            \filldraw [black] (1, 1) circle (6pt);
+            \filldraw [black] (4, 0) circle (6pt);
+            \filldraw [black] (3, 2) circle (6pt);
+            \filldraw [black] (2, 4) circle (6pt);
+            \filldraw [black] (5, 4) circle (6pt);
+
+            \node[above=3pt] at (0,2) {$v$};
+            \node[below=3pt] at (1,1) {$z$};
+            \node[left=3pt] at (3,2) {$x$};
+            \node[right=3pt] at (4,0) {$y$};
+            \node[left=3pt] at (2,4) {$u$};
+            \node[right=3pt] at (5,4) {$t$};
+        \end{tikzpicture}\hspace{1in}
+        \begin{tikzpicture}[scale=0.75]
+            \draw[black, thick] (1,1) -- (3,2);
+            \draw[black, thick] (1,1) -- (0,3);
+
+            \draw[black, thick] (4,0) -- (3,2);
+            \draw[black, thick] (4,0) -- (5,4);
+
+            \draw[black, thick] (3,2) -- (5,4);
+
+            \draw[black, thick] (0,3) -- (3,2);
+            \draw[black, thick] (0,3) -- (4,0);
+            \draw[black, thick] (0,3) -- (5,4);
+
+            \filldraw [black] (1, 1) circle (6pt);
+            \filldraw [black] (4, 0) circle (6pt);
+            \filldraw [black] (3, 2) circle (6pt);
+            \filldraw [black] (5, 4) circle (6pt);
+            \filldraw [black] (0,3) circle (6pt);
+
+            \node[left=3pt] at (0,3) {$w$};
+            \node[below=3pt] at (1,1) {$z$};
+            \node[left=3pt] at (3,2) {$x$};
+            \node[right=3pt] at (4,0) {$y$};
+            \node[right=3pt] at (5,4) {$t$};
+        \end{tikzpicture}
+        \caption{A graph $G$before and after the edge $u--v$ is contracted, creating $G'$ and a new vertex $w$.}
+        \label{fig:contractions}
+    \end{figure}
+
+    Any graph created by consecutively removing vertices, edges and performing edge contractions is called a \emph{minor} of the graph $G$.
+    So, in the figure above, $G'$ is a valid minor of $G$.
+    These minors lead into a powerful result that givs us a universal criterion for planarity.
+    \begin{theorem}[Wagner's Theorem~\cite{ourBook}]
+        A graph $G$ is planar if and only if neither $K_5$ nor $K_{3,3}$ is a minor of $G$.
+    \end{theorem}
+    In other words, if a graph $G$ can be simplified down, via vertex deletion, edge deletion, and edge contraction, into either $K_5$ or $K_{3,3}$, then it is a nonplanar graph.
+    This is why proving that $K_5$ and $K_{3,3}$ were nonplanar was so important -- they are the most basic nonplanar graphs that all nonplanar graphs can be reduced to.
+    This theorem and its corollaries lead to powerful results in the world of planar graphs.
+    For example, there are highly efficient planarity testing algorithms that can run in linear time.
 
     \section{title}
     f
