@@ -13,6 +13,7 @@
 \usepackage{float}
 
 \usepackage{hyperref}
+\usepackage{wrapfig}
 
 \usetikzlibrary{backgrounds}
 
@@ -278,6 +279,12 @@
     f
 
     \section{Applications of Planar Graphs}\label{sec:applications}
+    \begin{wrapfigure}{r}{2in}
+        \centering
+        \includegraphics[width=1.5in]{roads}
+        \caption{City roads represented as a graph. Colors inverted to match document style.}
+        \label{fig:roads}
+    \end{wrapfigure}
     When discussing applications of planar graphs, the first thing that might come to mind would resie in the field of civil engineering.
     Roads, bridges, and traffic flows are all operations of which general graph theory is very apparent.
     Intersections and roads can be thought of as graphs with edges and vertices.
@@ -318,6 +325,14 @@
                 date={2018},
                 url={https://discrete.openmathbooks.org/more/mdm/mdm.html},
                 accessdate={November 17, 2025}
+            }
+
+            \bib{praski}{webpage}{
+                title={Mapping the Jams: Traffic Analysis Using Graph Theory},
+                author={Mateusz Praski},
+                date={2023},
+                url={https://medium.com/data-science/mapping-the-jams-traffic-analysis-using-graph-theory-a387135ea748},
+                accessdate={November 24, 2025}
             }
 
         \end{biblist}
