@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  24 NOV 2025 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  24 NOV 2025 22:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -586,47 +586,78 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \WF@everypar=\toks45
 Package: wrapfig 2003/01/31  v 3.6
 )
+(c:/texlive/2025/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+
+(c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count334
+\calc@Bcount=\count335
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count336
+\calc@Cskip=\skip62
+)
+(c:/texlive/2025/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count337
+\l_MT_multwidth_dim=\dimen277
+\origjot=\skip63
+\l_MT_shortvdotswithinadjustabove_dim=\dimen278
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen279
+\l_MT_above_intertext_sep=\dimen280
+\l_MT_below_intertext_sep=\dimen281
+\l_MT_above_shortintertext_sep=\dimen282
+\l_MT_below_shortintertext_sep=\dimen283
+\xmathstrut@box=\box70
+\xmathstrut@dim=\dimen284
+)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@layerbox@background=\box70
-\pgf@layerboxsaved@background=\box71
+\pgf@layerbox@background=\box71
+\pgf@layerboxsaved@background=\box72
 )
-\c@definition=\count334
-\c@theorem=\count335
+\c@definition=\count338
+\c@theorem=\count339
 
 (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count336
+\l__color_backend_stack_int=\count340
 )
 (C:/dev/LaTeX/MSCS280_Presentation/out/essay.aux)
 \openout1 = `essay.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
 
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
 
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -634,16 +665,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count337
-\scratchdimen=\dimen275
-\scratchbox=\box72
-\nofMPsegments=\count338
-\nofMParguments=\count339
+\scratchcounter=\count341
+\scratchdimen=\dimen285
+\scratchbox=\box73
+\nofMPsegments=\count342
+\nofMParguments=\count343
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count340
-\MPscratchDim=\dimen276
-\MPnumerator=\count341
-\makeMPintoPDFobject=\count342
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen286
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
 \everyMPtoPDFconversion=\toks47
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -654,7 +685,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (C:/dev/LaTeX/MSCS280_Presentation/out/essay.out)
 (C:/dev/LaTeX/MSCS280_Presentation/out/essay.out)
@@ -666,91 +697,139 @@ Package hyperref Info: Link coloring OFF on input line 28.
 \tf@toc=\write5
 \openout5 = `essay.toc'.
 
- [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \vbox (badness 1082) has occurred while \output is active []
+ [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 
- [2]
-[3]
-<roads.png, id=68, 594.22pt x 638.385pt>
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 287.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 287.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 287.
+
+<nickScreenshot.png, id=78, 685.05937pt x 595.47469pt>
+File: nickScreenshot.png Graphic file (type png)
+<use nickScreenshot.png>
+Package pdftex.def Info: nickScreenshot.png  used on input line 297.
+(pdftex.def)             Requested size: 167.96123pt x 146.0pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 303.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 303.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\infty' on input line 303.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 303.
+
+[4 <./nickScreenshot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 319--323
+
+ []
+
+
+Package amsrefs Warning: The form \cite{...}*{...} is recommended
+(amsrefs)                instead of \cite[...]{...} on input line 351.
+
+[5] [6]
+<roads.png, id=117, 594.22pt x 638.385pt>
 File: roads.png Graphic file (type png)
 <use roads.png>
-Package pdftex.def Info: roads.png  used on input line 284.
+Package pdftex.def Info: roads.png  used on input line 392.
 (pdftex.def)             Requested size: 108.405pt x 116.46289pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \OT1/cmr/m/n/10 roads rep-re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \OT1/cmr/m/n/10 sented as a
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 285--285
+Underfull \hbox (badness 1533) in paragraph at lines 393--393
 \OT1/cmr/m/n/10 graph. Col-ors
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \OT1/cmr/m/n/10 in-verted to
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 288--293
+Underfull \hbox (badness 3919) in paragraph at lines 396--401
 [][]\OT1/cmr/m/n/10 When dis-cussing ap-pli-ca-tions of pla-nar
  []
 
-[4 <./roads.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+[7 <./roads.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 []\OT1/cmr/m/n/8 Mateusz Praski, \OT1/cmr/m/it/8 Map-ping the Jams: Traf-fic An
 al-y-sis Us-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 \OT1/cmr/m/it/8 ing Graph The-ory \OT1/cmr/m/n/8 (2023), []$\OT1/cmtt/m/n/8 htt
 ps : / / medium . com / data-[]science /
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 336--336
+Underfull \hbox (badness 7777) in paragraph at lines 444--444
 \OT1/cmtt/m/n/8 mapping-[]the-[]jams-[]traffic-[]analysis-[]using-[]graph-[]the
 ory-[]a387135ea748$[]\OT1/cmr/m/n/8 . Ac-cessed No-
  []
 
-[5] (C:/dev/LaTeX/MSCS280_Presentation/out/essay.aux)
+
+Package amsrefs Warning: Abbreviation 'indigits.com' undefined on input line 47
+0.
+
+[8] (C:/dev/LaTeX/MSCS280_Presentation/out/essay.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
 Package rerunfilecheck Info: File `essay.out' has not changed.
-(rerunfilecheck)             Checksum: 477A93A25961DCD34F216D08AE97BB87;696.
+(rerunfilecheck)             Checksum: BF42E08322C0D1DB251E70655E463BCB;1251.
  ) 
 Here is how much of TeX's memory you used:
- 21494 strings out of 468662
- 391590 string characters out of 5444563
- 789044 words of memory out of 5000000
- 49695 multiletter control sequences out of 15000+600000
+ 22171 strings out of 468662
+ 403899 string characters out of 5444563
+ 804249 words of memory out of 5000000
+ 50341 multiletter control sequences out of 15000+600000
  634601 words of font info for 67 fonts, out of 8000000 for 9000
  591 hyphenation exceptions out of 8191
  102i,10n,107p,594b,753s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/202
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/te
-xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/202
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2025/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on C:/dev/LaTeX/MSCS280_Presentation/out/essay.pdf (5 pages, 273
-864 bytes).
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
+.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2025/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.
+pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on C:/dev/LaTeX/MSCS280_Presentation/out/essay.pdf (8 pages, 490
+067 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
