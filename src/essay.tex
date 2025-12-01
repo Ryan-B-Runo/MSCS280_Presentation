@@ -34,18 +34,14 @@
 % Document
 \begin{document}
 
-    \title{Our Title}
+    \title{Planar Graphs and Planarity}
 
     \author{Lucas Johnson}
     \author{Nathan LaCrosse}
-    \author{Nick Proctor*}
-    \thanks{*Edited by Ryan Bruno}
+    \author{Nick Proctor}
+    \author{Ryan Bruno}
 
     \date{\today}
-
-    \begin{abstract}
-        our abstract
-    \end{abstract}
 
     \maketitle
 
@@ -87,7 +83,7 @@
     \end{center}
     From here on, when referring to planar graphs, we will be considering the plane graph that the graph is isomorphic to.
     Often, when working with planar graphs, one is concerned with whether or not a given graph is planar.
-    This question appears often in contexts where there are connections on a $2D$ gid and intersections are impossible.
+    This question appears often in contexts where there are connections on a $2D$ grid and intersections are impossible.
 
     In order to solve this, we must discuss what properties define a planar graph.
     One important theorem is the Euler Identity.
@@ -136,7 +132,7 @@
     \[m>3n-6,\]
     then $G$ is nonplanar.
 
-    These results lead to two important nonplanar graphs that leas to a universal planarity criterion.
+    These results lead to two important nonplanar graphs that lead to a universal planarity criterion.
     Namely, both $K_5$ and $K_{3,3}$ are nonplanar.
     $K_5$ is of order $5$ and size $20$, and since $20>15-6$, it is therefore nonplanar by our newest result.
     $K_{3,3}$ is of order $6$ and size $9$, so we can't say anything using the size formulas.
@@ -203,7 +199,7 @@
         \label{fig:k_5k_33}
     \end{figure}
 
-    Put simply, the idea behind the universal criterion for planarity is the following: can we show that a given graph has the same kind of geometry as $k_5$ or $K_{3,3}$?
+    Put simply, the idea behind the universal criterion for planarity is the following: can we show that a given graph has the same kind of geometry as $K_5$ or $K_{3,3}$?
     Furthermore, we only have to show that a part of a graph has this geometry -- as there only needs to be one instance of line crossing to have a nonplanar graph.
 
     To do this, we use the power of edge contractions.
@@ -264,7 +260,7 @@
             \node[right=3pt] at (4,0) {$y$};
             \node[right=3pt] at (5,4) {$t$};
         \end{tikzpicture}
-        \caption{A graph $G$before and after the edge $u--v$ is contracted, creating $G'$ and a new vertex $w$.}
+        \caption{A graph $G$ before and after the edge $uv$ is contracted, creating $G'$ and a new vertex $w$.}
         \label{fig:contractions}
     \end{figure}
 
@@ -285,7 +281,7 @@
 
     \subsection{Simple Construction of: $K_{1, n-1}$}
     For a graph $K_{1, n-1},\ n \geq 2$, it follows that in radial coordinates, all vertices must exist at distinct degrees.
-    That is, $\exists\ \theta_i\ \forall\ 0\leq i, k < n-1 \in \Z\ \lvert\ \theta_i \neq \theta_k$ and $\forall\ \theta_i, \exists\text{ radius }r_i$.
+    That is, $\left\{ \exists\ \theta_i\ \forall\ 0\leq i, k < n-1 \in \Z\ \lvert\ \theta_i \neq \theta_k \text{ and } \forall\ \theta_i, \exists\text{ radius }r_i \right\}$.
     Further, may it be assumed, for any value $n$, the distribution such that all values of $\theta_i$ are maximally spread from adjacent degrees: $\theta_{\text{mod}(i\pm 1, n-1)}$, is $\theta_i = \frac{2\pi}{n-1} i$.
     It follows, the non-origin vertices must then be:
     \[v_i = \left(r_i \cos\left(\frac{2\pi}{n-1} i\right), r_i \sin\left(\frac{2\pi}{n-1}i\right)\right);\ r_i \neq 0\]
@@ -333,10 +329,10 @@
 
     \subsubsection{Infinite Graphs}
 
-    The order of a Graph G is the cardinality of the vertex set.
+    The order of a graph $G$ is the cardinality of the vertex set.
     That is $\left| V(G)\right|=n$.
     A graph is then infinite when $\left|V(G)\right|$ or $\left|E(G)\right|$ is infinite.
-    A popular method to organize a countably infinite graph G is via an increasing union of finite subgraphs~{diestel}. \\\
+    A popular method to organize a countably infinite graph $G$ is via an increasing union of finite subgraphs~~\cite{diestel}. \\
     That is, for a vertex set:
     \[V(G) = \{x_1, x_2, \cdots\}\]
     For each $n\in\N$ let the finite induced subgraph of $G$ on $n$ vertices be:
@@ -381,10 +377,6 @@
         \Psi\left(E\left(K_{1,n-1}\right)\right) &= \left\{\left(r_0 t_0, 0\right), \left(r_1 t_1, \frac{2\pi}{n-1}\right),  \cdots, \left(r_{n-2}t_{n-2}, \frac{2\pi}{n-1}\left(n-2\right)\right)\right\}
     \end{align*}
 
-
-    \section{title}
-    Do we need another section?
-
     \newpage
     \section{Applications of Planar Graphs}\label{sec:applications}
     \begin{wrapfigure}{r}{2in}
@@ -393,7 +385,7 @@
         \caption{City roads represented as a graph. Colors inverted to match document style.}
         \label{fig:roads}
     \end{wrapfigure}
-    When discussing applications of planar graphs, the first thing that might come to mind would resie in the field of civil engineering.
+    When discussing applications of planar graphs, the first thing that might come to mind would reside in the field of civil engineering.
     Roads, bridges, and traffic flows are all operations of which general graph theory is very apparent.
     Intersections and roads can be thought of as graphs with edges and vertices.
     The crossing of edges, or in this case roads, requires a decision to be made whether to implement a new intersection or a bridge overpass.
@@ -406,7 +398,7 @@
     From a network engineer perspective, graphs can represent entire networks.
     Data being transferred by ethernet consists of eight electrical pulses through copper wire which are subject to electrical interference.
     If too many cables cross, packet loss may occur, leading to the user experience slowing down.
-    Similarly, Electrical Engineers become subject to the same issue or interference.
+    Similarly, electrical engineers become subject to the same issue or interference.
     When designing a single layered Printed Circuit board (PCB), engineers must keep the layout planar, as adding in Vias leads to increased complexity, cost, and resistance on the board.
 
     \newpage
