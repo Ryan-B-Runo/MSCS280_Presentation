@@ -87,7 +87,7 @@
 
     In order to solve this, we must discuss what properties define a planar graph.
     One important theorem is the Euler Identity.
-    \begin{theorem}[The Euler Identity~\cite{ourBook}]
+    \begin{theorem}[The Euler Identity~{\cite[pp.~243]{ourBook}}]
         For every connected plane graph of order $n$, size $m$ and having $r$ regions,
         \[n-m+r=2.\]
     \end{theorem}
@@ -267,7 +267,7 @@
     Any graph created by consecutively removing vertices, edges and performing edge contractions is called a \emph{minor} of the graph $G$.
     So, in the figure above, $G'$ is a valid minor of $G$.
     These minors lead into a powerful result that givs us a universal criterion for planarity.
-    \begin{theorem}[Wagner's Theorem~\cite{ourBook}]
+    \begin{theorem}[Wagner's Theorem~{\cite[pp.~260]{ourBook}}]
         A graph $G$ is planar if and only if neither $K_5$ nor $K_{3,3}$ is a minor of $G$.
     \end{theorem}
     In other words, if a graph $G$ can be simplified down, via vertex deletion, edge deletion, and edge contraction, into either $K_5$ or $K_{3,3}$, then it is a nonplanar graph.
@@ -300,7 +300,7 @@
     May it be self-evident that for any sequence of radii $r_i '$, there exists another orientation of radii $r_i$ that is monotonically increasing.
     That is, $r_0\leq r_1 \leq r_2 \leq \cdots \leq r_n$.
     Pick any two distinct vertices in $K_{1, n-1}$.\\
-    That is, let $k, c \in \Z\ \lvert\ 0\leq k<n-1,\ 0<c<n-1-k$.
+    That is, let $\left\{ k, c \in \Z\ \lvert\ 0\leq k<n-1,\ 0<c<n-1-k \right\}$.
     It follows that the edges created from the images of the vertices $v_k$ and $v_{k+c}$ may only intersect when the radii are the same.
     That is, $t_{k+c} = \frac{r_{k}}{r_{k+c}} t_{k}\ \lvert\ 0 < \frac{r_k}{r_{k+c}} t_{k} \leq 1 $.\\
     May we evaluate $E\left(v_{\left(0, 0\right)}, v_i\right) = E\left(v_{\left(0, 0\right)}, v_{i+c}\right)$:

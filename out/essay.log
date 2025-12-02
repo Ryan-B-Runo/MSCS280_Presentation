@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  1 DEC 2025 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  1 DEC 2025 19:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -697,7 +697,12 @@ Package hyperref Info: Link coloring OFF on input line 35.
 \tf@toc=\write5
 \openout5 = `essay.toc'.
 
- [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+
+Package amsrefs Warning: The form \cite{...}*{...} is recommended
+(amsrefs)                instead of \cite[...]{...} on input line 90.
+
+[1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \vbox (badness 1082) has occurred while \output is active []
 
  [2]
@@ -739,10 +744,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Underfull \hbox (badness 10000) in paragraph at lines 315--319
 
  []
-
-
-Package amsrefs Warning: The form \cite{...}*{...} is recommended
-(amsrefs)                instead of \cite[...]{...} on input line 347.
 
 [5] [6]
 <roads.png, id=113, 594.22pt x 638.385pt>
@@ -830,7 +831,7 @@ pe1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public
 pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
 Output written on C:/dev/LaTeX/MSCS280_Presentation/out/essay.pdf (8 pages, 490
-971 bytes).
+991 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams
