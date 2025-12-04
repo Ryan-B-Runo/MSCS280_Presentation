@@ -3,6 +3,13 @@
 \contentsline {subsection}{\tocsubsection {}{2.1}{Simple Construction of: $K_{1, n-1}$}}{4}{subsection.2.1}%
 \contentsline {subsection}{\tocsubsection {}{2.2}{Planarity of $K_{1, \infty }$}}{4}{subsection.2.2}%
 \contentsline {subsubsection}{\tocsubsubsection {}{2.2.1}{Infinite Graphs}}{5}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\tocsubsubsection {}{2.2.2}{Planarity of $\overline {K_{1, \infty }}$}}{6}{subsubsection.2.2.2}%
-\contentsline {section}{\tocsection {}{3}{Applications of Planar Graphs}}{7}{section.3}%
-\contentsline {section}{\tocsection {}{}{References}}{8}{section*.2}%
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.2}{Planarity of $\overline {K_{1, \infty }}$}}{7}{subsubsection.2.2.2}%
+\contentsline {subsection}{\tocsubsection {}{2.3}{Planarity of Infinite Trees}}{8}{subsection.2.3}%
+\contentsline {subsubsection}{\tocsubsubsection {}{2.3.1}{Planarity of $T_{n, m}$}}{8}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{2.3.2}{$T_{\infty , \infty }$ is planar}}{12}{subsubsection.2.3.2}%
+\contentsline {subsection}{\tocsubsection {}{2.4}{Remarks about infinite planarity}}{12}{subsection.2.4}%
+\contentsline {subsubsection}{\tocsubsubsection {}{2.4.1}{A graph may have vertices of infinite degree and remain planar.}}{12}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{2.4.2}{An infinite graph may be closed and remain planar.}}{12}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\tocsubsubsection {}{2.4.3}{An infinite graph may be recursively compacted.}}{12}{subsubsection.2.4.3}%
+\contentsline {section}{\tocsection {}{3}{Applications of Planar Graphs}}{13}{section.3}%
+\contentsline {section}{\tocsection {}{}{References}}{14}{section*.2}%

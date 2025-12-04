@@ -15,8 +15,6 @@
 \usepackage{hyperref}
 \usepackage{wrapfig}
 \usepackage{mathtools}
-\usepackage{xurl}
-
 
 \usetikzlibrary{backgrounds}
 
@@ -25,9 +23,7 @@
 
 \theoremstyle{plain}
 \newtheorem{theorem}{Theorem}[section]
-
-\theoremstyle{plain}
-\newtheorem{corollary}{Corollary}[section]
+\newtheorem{corollary}{Corollary}[theorem]
 
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
@@ -92,7 +88,7 @@
 
     In order to solve this, we must discuss what properties define a planar graph.
     One important theorem is the Euler Identity.
-    \begin{theorem}[The Euler Identity~{\cite[pp.~243]{ourBook}}]
+    \begin{theorem}[The Euler Identity~\cite{ourBook}]
         For every connected plane graph of order $n$, size $m$ and having $r$ regions,
         \[n-m+r=2.\]
     \end{theorem}
@@ -272,7 +268,7 @@
     Any graph created by consecutively removing vertices, edges and performing edge contractions is called a \emph{minor} of the graph $G$.
     So, in the figure above, $G'$ is a valid minor of $G$.
     These minors lead into a powerful result that givs us a universal criterion for planarity.
-    \begin{theorem}[Wagner's Theorem~{\cite[pp.~260]{ourBook}}]
+    \begin{theorem}[Wagner's Theorem~\cite{ourBook}]
         A graph $G$ is planar if and only if neither $K_5$ nor $K_{3,3}$ is a minor of $G$.
     \end{theorem}
     In other words, if a graph $G$ can be simplified down, via vertex deletion, edge deletion, and edge contraction, into either $K_5$ or $K_{3,3}$, then it is a nonplanar graph.
@@ -367,6 +363,14 @@
                 publisher={indigits.com}
             }
 
+	\bib{infPlanar}{book}{
+ 	    title={Topics in Topological Graph Theory},
+	    author={Lowell W. Beineke},
+	    author={Robin J. Wilson},
+              date={2009},
+	    publisher={Cambridge University Press}
+	}
+
             \bib{munkTop}{webpage}{
                 title={Natural Language Versions of the Definitions in Munkres},
                 author={James Munkres},
@@ -376,15 +380,6 @@
                 url={https://www.andrew.cmu.edu/user/avigad/Papers/mkm/munkres.pdf},
                 accessdate={November 24, 2025}
             }
-
-            \bib{infPlanar}{book}{
-                title={Topics in Topological Graph Theory},
-                author={Lowell W. Beineke},
-                author={Robin J. Wilson},
-                date={2009},
-                publisher={Cambridge University Press}
-            }
-
         \end{biblist}
     \end{bibdiv}
 
